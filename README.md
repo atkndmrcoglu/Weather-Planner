@@ -18,9 +18,9 @@ The application is built using **Flutter** and **Dart**, following clean code pr
 
 ## 📱 In-App Screenshots
 
-| Home Screen & Weather | AI Recommendations & Planner | Route Tracking System |
+| Home Screen & Weather | MAP UI | AI Recommendations & Planner | Route Tracking System |
 | :---: | :---: | :---: |
-| <img src="screenshots/home_screen.png" width="250" alt="Home Screen"/> | <img src="screenshots/ai_recommendations.png" width="250" alt="AI Recommendations"/> | <img src="screenshots/route_planner.png" width="250" alt="Route Planner"/> |
+| <img src="screenshots/home_screen_page_screenshot.png" width="250" alt="Home Screen"/> | <img src="screenshots/map_screen_page_screenshot.png" width="250" alt="Map Screen"/> | <img src="screenshots/ai_suggestion_page_screenshot.png" width="250" alt="AI Recommendations"/> | <img src="screenshots/my_routes_page_screenshot.png" width="250" alt="Route Planner"/> |
 
 
 
