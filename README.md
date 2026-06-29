@@ -19,10 +19,8 @@ The application is built using **Flutter** and **Dart**, following clean code pr
 ## 📱 In-App Screenshots
 
 | Home Screen & Weather | MAP UI | AI Recommendations & Planner | Route Tracking System |
-| :---: | :---: | :---: |
-| <img src="screenshots/home_screen_page_screenshot.png" width="250" alt="Home Screen"/> | <img src="screenshots/map_screen_page_screenshot.png" width="250" alt="Map Screen"/> | <img src="screenshots/ai_suggestion_page_screenshot.png" width="250" alt="AI Recommendations"/> | <img src="screenshots/my_routes_page_screenshot.png" width="250" alt="Route Planner"/> |
-
-
+| :---: | :---: | :---: | :---: |
+| <img src="screenshots/home_screen_page_screenshot.png" width="220" alt="Home Screen"/> | <img src="screenshots/map_screen_page_screenshot.png" width="220" alt="Map Screen"/> | <img src="screenshots/ai_suggestion_page_screenshot.png" width="220" alt="AI Recommendations"/> | <img src="screenshots/my_routes_page_screenshot.png" width="220" alt="Route Planner"/> |
 
 ---
 
@@ -31,8 +29,8 @@ The application is built using **Flutter** and **Dart**, following clean code pr
 * **Framework:** [Flutter](https://flutter.dev) (Cross-platform iOS & Android)
 * **Programming Language:** [Dart](https://dart.dev)
 * **State Management:** `flutter_bloc` (BLoC Pattern) - Separates business logic entirely from the user interface (UI), ensuring a highly testable and maintainable codebase.
-* **Service & API Integration:** Weather Service APIs, Google Maps API (for route management), and AI Engine Integration.
-* **Local Storage:** Fast local data access and caching support for offline functionality.
+* **Service & API Integration:** Weather Service APIs, OpenStreetMap (OSM) & Traffic APIs, and AI Engine Integration.
+* **Route Optimization:** Built-in A* (A-Star) search algorithm for intelligent pathfinding combined with real-time weather overlays.
 
 ---
 
@@ -40,36 +38,7 @@ The application is built using **Flutter** and **Dart**, following clean code pr
 
 Follow these steps to run the project locally on your machine:
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/atkndmrcoglu/Weather-Planner.git](https://github.com/atkndmrcoglu/Weather-Planner.git)
-    cd Weather-Planner
-    ```
-
-2.  **Install Dependencies:**
-    ```bash
-    flutter pub get
-    ```
-
-3.  **Configure API Keys:**
-    * Add your required API keys for weather services and AI components into the corresponding environment configuration file (`.env` or config file) within the project.
-
-4.  **Run the Application:**
-    ```bash
-    flutter run
-    ```
-
----
-
-## 📂 Project Structure (Architecture)
-
-The project follows a clean, structured, and modular directory layout:
-
-```text
-lib/
-│
-├── blocs/          # Global and feature-specific BLoC files (State, Event, Bloc)
-├── models/         # Data models for weather, users, and routes
-├── services/       # API clients, AI service integration, and data providers
-├── views/          # UI Screens, pages, and reusable custom widgets
-└── main.dart       # Application entry point
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/atkndmrcoglu/Weather-Planner.git](https://github.com/atkndmrcoglu/Weather-Planner.git)
+   cd Weather-Planner
